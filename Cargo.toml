@@ -5,6 +5,9 @@ edition = "2021"
 build = "build.rs"
 links = "unishox2"
 license = "GPL-3.0"
+exclude = ['/Unisox2/']
+description = "Rust bindings for Unishox2 compression for short strings."
+repository = "https://github.com/blockiosaurus/unishox-rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
