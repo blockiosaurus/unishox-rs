@@ -5,9 +5,22 @@ edition = "2021"
 build = "build.rs"
 links = "unishox2"
 license = "GPL-3.0"
-exclude = ['/Unishox2']
 description = "Rust bindings for Unishox2 compression for short strings."
 repository = "https://github.com/blockiosaurus/unishox-rs"
+exclude = [
+    'Unishox2/afl_fuzz',
+    'Unishox2/Arduino',
+    'Unishox2/cmake',
+    '/Unishox2/docs',
+    'Unishox2/other_lang_bindings',
+    'Unishox2/paper',
+    'Unishox2/promo',
+    'Unishox2/sample_texts',
+    'Unishox2/tex',
+    'Unishox2/Unishox1',
+    'Unishox2/Unishox3_Alpha',
+    'Unishox2/Unishox_Article_2.pdf',
+] 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
