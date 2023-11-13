@@ -1,7 +1,7 @@
 #![allow(non_upper_case_globals)]
 #![allow(non_camel_case_types)]
 #![allow(non_snake_case)]
-use libc::*;
+use std::ffi::{c_char, c_int};
 include!("./bindings.rs");
 
 pub fn compress_simple(input: &str) -> Vec<u8> {

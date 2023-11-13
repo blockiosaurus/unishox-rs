@@ -1,6 +1,6 @@
 [package]
 name = "unishox-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 build = "build.rs"
 links = "unishox2"
@@ -11,7 +11,7 @@ exclude = [
     'Unishox2/afl_fuzz',
     'Unishox2/Arduino',
     'Unishox2/cmake',
-    '/Unishox2/docs',
+    'Unishox2/docs',
     'Unishox2/other_lang_bindings',
     'Unishox2/paper',
     'Unishox2/promo',
